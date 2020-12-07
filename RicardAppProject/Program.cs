@@ -11,6 +11,7 @@ namespace RicardAppProject {
             book.AddGrade(89.5f);
             book.AddGrade(87f);
             book.AddGrade(55f);
+            book.AddGrade(10f);
 
             var stats = new GradeStatistics(book);
             stats.PrintStats();
